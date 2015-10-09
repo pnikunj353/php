@@ -70,7 +70,10 @@ $larry = $facebook->api('/larryrubin');
             <pre><?php print_r($user_profile); ?></pre>
         <?php else: ?>
             <strong><em>You are not Connected.</em></strong>
-        <?php endif ?>
+        <?php
+        /*.......................................
+        .......................*/
+        endif ?>
         
         <h3>Public profile of Larry</h3>
         <img src="https://graph.facebook.com/larryrubin/picture">
